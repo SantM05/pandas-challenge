@@ -11,10 +11,10 @@ Pandas-Challenge
 ###### eleventh_graders = school_data_complete[(school_data_complete["grade"] == "11th")]
 ###### twelfth_graders = school_data_complete[(school_data_complete["grade"] == "12th")]
 ###### And establishment of bins in the school size DataFrame
+###### To clean the data: math_scores_by_grade.index.name = None
 
 #### Code Source: Xpert Learning Assistant
 ###### Use of the .reset_index to put the data in each library to transform into the different DataFrames
-######
-######
-######
-######
+###### Use of the float() function on calculate the averages
+###### Modification in declaring the keys on the dictionaries, with the reset index
+###### The use of this code to transform the datatype so the school_summary DataFrame didn't run into issues when using the pd.cut() function
